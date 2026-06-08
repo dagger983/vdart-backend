@@ -1,0 +1,129 @@
+{
+  "tabs": [
+    {
+      "id": "1780605737792610l",
+      "tabKind": "request",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:3000/chat",
+      "params": [
+        {
+          "key": "",
+          "value": "",
+          "enabled": true
+        }
+      ],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"message\": \"who is sid ahamed ?\"\n}\n"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true,
+      "inheritScripts": false,
+      "preRequestScript": "",
+      "testScript": "",
+      "testRules": [],
+      "setVariables": [],
+      "activeTab": "body",
+      "responseTab": "body",
+      "sourceRequestId": null,
+      "sourceCollectionId": null,
+      "sourceFolderPath": null,
+      "sourceScope": "local",
+      "proxyId": null,
+      "certificateConfig": null,
+      "inheritCertificate": false,
+      "response": {
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "access-control-allow-origin": "*",
+          "connection": "keep-alive",
+          "content-length": "396",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Thu, 04 Jun 2026 20:56:26 GMT",
+          "etag": "W/\"18c-rESsA4lthZ1CWVTSL7zwbEnJqQw\"",
+          "keep-alive": "timeout=5",
+          "ratelimit-limit": "10",
+          "ratelimit-policy": "10;w=60",
+          "ratelimit-remaining": "9",
+          "ratelimit-reset": "60",
+          "x-powered-by": "Express"
+        },
+        "body": "{\"reply\":\"Hi, I'm Avishek Ganguly! How can I help you with VDart today?\\n\\nI don't have information about \\\"Sid Ahamed\\\" in the provided content. However, VDart's CEO is Sidd Ahmed. Is it possible you were asking about Sidd Ahmed?\\n\\nI don't have that information available. For further assistance please contact us at csm@vdartinc.com or call (470) 323-8433 and our team will be happy to help.\"}",
+        "time": 2203,
+        "size": 396,
+        "actualRequest": {
+          "method": "POST",
+          "url": "http://localhost:3000/chat",
+          "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json"
+          },
+          "body": "{\n  \"message\": \"who is sid ahamed ?\"\n}\n",
+          "protocol": "HTTP/1.1",
+          "certificateNames": "System Trust Store"
+        },
+        "cookies": [],
+        "timingPhases": [
+          {
+            "name": "Environment",
+            "duration": 4
+          },
+          {
+            "name": "Auth",
+            "duration": 0
+          },
+          {
+            "name": "HTTP Request",
+            "duration": 2203
+          },
+          {
+            "name": "Post-processing",
+            "duration": 0
+          }
+        ]
+      },
+      "error": null,
+      "loading": false,
+      "wsConnected": false,
+      "wsUrl": null,
+      "wsMessages": [],
+      "grpcConnected": false,
+      "grpcStreaming": false,
+      "grpcMessages": [],
+      "grpcConfig": null,
+      "groupId": null,
+      "mcpDescription": "",
+      "mcpInputSchema": "",
+      "collectionId": null,
+      "folderId": null,
+      "folderPath": null,
+      "editorScope": "local"
+    }
+  ],
+  "groups": [],
+  "activeTabId": "1780605737792610l",
+  "currentView": "requests",
+  "sidebarTab": "collections",
+  "sidebarCollapsed": true,
+  "responseTab": "body",
+  "layoutMode": "horizontal",
+  "splitRatio": 0.5,
+  "horizontalSplitRatio": 0.5,
+  "selectedMockServerId": null
+}

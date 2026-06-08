@@ -1,0 +1,26 @@
+{
+  "name": "vdart_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "latest",
+    "bullmq": "^5.77.6",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.5.2",
+    "node-fetch": "^2.7.0",
+    "rate-limit-redis": "^5.0.0",
+    "redis": "^5.12.1"
+  }
+}

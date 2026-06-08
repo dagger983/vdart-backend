@@ -1,0 +1,307 @@
+[
+  {
+    "id": "1780605862510",
+    "timestamp": 1780605862510,
+    "request": {
+      "id": "1780605862489",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:3000/chat",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"message\": \"What services does VDart offer?\"\n}\n"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 0,
+      "statusText": "Error",
+      "headers": {},
+      "body": "Request failed: fetch failed",
+      "time": 12,
+      "size": 0,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780605900345",
+    "timestamp": 1780605900345,
+    "request": {
+      "id": "1780605900107",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:3000/chat",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"message\": \"What services does VDart offer?\"\n}\n"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "32",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 04 Jun 2026 20:45:00 GMT",
+        "etag": "W/\"20-cI8B1wZuBEyTE5ClDvphKZx7wd0\"",
+        "keep-alive": "timeout=5",
+        "ratelimit-limit": "10",
+        "ratelimit-policy": "10;w=60",
+        "ratelimit-remaining": "9",
+        "ratelimit-reset": "60",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"error\":\"Something went wrong\"}",
+      "time": 228,
+      "size": 32,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780605968300",
+    "timestamp": 1780605968300,
+    "request": {
+      "id": "1780605967970",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:3000/chat",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"message\": \"What services does VDart offer?\"\n}\n"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "32",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 04 Jun 2026 20:46:08 GMT",
+        "etag": "W/\"20-cI8B1wZuBEyTE5ClDvphKZx7wd0\"",
+        "keep-alive": "timeout=5",
+        "ratelimit-limit": "10",
+        "ratelimit-policy": "10;w=60",
+        "ratelimit-remaining": "9",
+        "ratelimit-reset": "60",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"error\":\"Something went wrong\"}",
+      "time": 319,
+      "size": 32,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780605970814",
+    "timestamp": 1780605970814,
+    "request": {
+      "id": "1780605970681",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:3000/chat",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"message\": \"What services does VDart offer?\"\n}\n"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "32",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 04 Jun 2026 20:46:10 GMT",
+        "etag": "W/\"20-cI8B1wZuBEyTE5ClDvphKZx7wd0\"",
+        "keep-alive": "timeout=5",
+        "ratelimit-limit": "10",
+        "ratelimit-policy": "10;w=60",
+        "ratelimit-remaining": "8",
+        "ratelimit-reset": "58",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"error\":\"Something went wrong\"}",
+      "time": 121,
+      "size": 32,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780606065329",
+    "timestamp": 1780606065329,
+    "request": {
+      "id": "1780606063024",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:3000/chat",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"message\": \"What services does VDart offer?\"\n}\n"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "787",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 04 Jun 2026 20:47:45 GMT",
+        "etag": "W/\"313-GKfrLFbx5sTEZyzM4PXUUSGNeeU\"",
+        "keep-alive": "timeout=5",
+        "ratelimit-limit": "10",
+        "ratelimit-policy": "10;w=60",
+        "ratelimit-remaining": "9",
+        "ratelimit-reset": "60",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"reply\":\"Hi, I'm Avishek Ganguly! How can I help you with VDart today?\\n\\nVDart is a global technology and staffing company that helps organizations reimagine their businesses. They offer award-winning technologies and workforce solutions. VDart Digital, their specialized digital services division, focuses on shaping the future of innovation by providing business solutions that help clients solve challenges and create opportunities using new digital technologies.\\n\\nThey are also one of the USA's top business consulting services, supporting businesses by solving complex challenges and creating new opportunities, acting as a specialist digital consulting firm. Their strategic partnerships are in Cloud, Intelligent Automation, IoT, Customer Experience, and Security solutions.\"}",
+      "time": 2293,
+      "size": 787,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1780606586572",
+    "timestamp": 1780606586572,
+    "request": {
+      "id": "1780606584361",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:3000/chat",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"message\": \"who is sid ahamed ?\"\n}\n"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "396",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 04 Jun 2026 20:56:26 GMT",
+        "etag": "W/\"18c-rESsA4lthZ1CWVTSL7zwbEnJqQw\"",
+        "keep-alive": "timeout=5",
+        "ratelimit-limit": "10",
+        "ratelimit-policy": "10;w=60",
+        "ratelimit-remaining": "9",
+        "ratelimit-reset": "60",
+        "x-powered-by": "Express"
+      },
+      "body": "{\"reply\":\"Hi, I'm Avishek Ganguly! How can I help you with VDart today?\\n\\nI don't have information about \\\"Sid Ahamed\\\" in the provided content. However, VDart's CEO is Sidd Ahmed. Is it possible you were asking about Sidd Ahmed?\\n\\nI don't have that information available. For further assistance please contact us at csm@vdartinc.com or call (470) 323-8433 and our team will be happy to help.\"}",
+      "time": 2203,
+      "size": 396,
+      "cookies": []
+    }
+  }
+]
