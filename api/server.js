@@ -18,11 +18,9 @@ if (GEMINI_API_KEY && !GEMINI_API_KEY.startsWith("AIzaSy") && !GEMINI_API_KEY.st
 
 const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
-// ── IN-MEMORY CACHE & LOCKS (Replaced Redis) ───────────
 const cacheStore = new Map();
 const requestLocks = new Set();
 
-// ── CACHING FUNCTIONS ──────────────────────────────────
 async function getCachedResponse(prompt) {
   const hash = crypto.createHash('sha256').update(prompt.toLowerCase().trim()).digest('hex');
   const cached = cacheStore.get(`cache:${hash}`);
@@ -35,7 +33,7 @@ async function setCachedResponse(prompt, responseText) {
   setTimeout(() => cacheStore.delete(`cache:${hash}`), 86400 * 1000);
 }
 
-// ── MESSAGE GENERATION ─────────────────────────────────
+
 async function generateChatResponse(jobData) {
   if (GEMINI_API_KEY && !GEMINI_API_KEY.startsWith("AIzaSy") && !GEMINI_API_KEY.startsWith("AQ.")) {
     throw new Error("Invalid GEMINI_API_KEY. Gemini API keys must start with 'AIzaSy' or 'AQ.'. Please check your .env file and get a valid key from https://aistudio.google.com/app/apikey.");
